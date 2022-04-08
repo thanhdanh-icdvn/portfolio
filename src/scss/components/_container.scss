@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 90%;
+    @include respond-to('sm'){
+        max-width: 95%;
+    }
+    @include mq($xs){
+        max-width: 80%;
+    }
+}
